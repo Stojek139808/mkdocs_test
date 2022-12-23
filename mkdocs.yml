@@ -1,0 +1,20 @@
+site_name: documentation_name
+#site_url: url_to_website         # 
+#repo_url: url_to_repository      # link to the repository hositng 
+theme:                           # all theme-related variables
+  name: material                 # global theme name, refer to
+#  custom_dir: path/to/theme      # path to custom theme
+                                 # https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes
+#  logo: path/to/logo.png         # website logo
+  features:                      # additional features related to the theme
+    - feature.one                # list of features used
+    - feature.two
+extra_css:
+  - path/to/style.css            # path to extra style sheet
+plugins:                         # list of plugins used
+  - search                       # search engine plugin
+#  - other_plugins
+nav:
+  - 'index': index.md
+  - 'podsekcja':
+    - 'strona': strona.md
